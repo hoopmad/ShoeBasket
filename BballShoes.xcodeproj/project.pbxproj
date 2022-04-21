@@ -11,6 +11,13 @@
 		762680D62811BED000EA42F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680D52811BED000EA42F9 /* ContentView.swift */; };
 		762680D82811BED300EA42F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762680D72811BED300EA42F9 /* Assets.xcassets */; };
 		762680DB2811BED300EA42F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762680DA2811BED300EA42F9 /* Preview Assets.xcassets */; };
+		762680EB2811BFFC00EA42F9 /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680EA2811BFFC00EA42F9 /* Shoe.swift */; };
+		762680ED2811C12600EA42F9 /* ShoeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680EC2811C12600EA42F9 /* ShoeRow.swift */; };
+		762680F12811C42D00EA42F9 /* shoeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 762680F02811C42D00EA42F9 /* shoeData.json */; };
+		762680F32811C92D00EA42F9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F22811C92D00EA42F9 /* ModelData.swift */; };
+		762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F42811CACD00EA42F9 /* ShoeList.swift */; };
+		762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F62811CB9600EA42F9 /* ShoeDetail.swift */; };
+		762680F92811D3DC00EA42F9 /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F82811D3DC00EA42F9 /* RectangleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		762680D52811BED000EA42F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		762680D72811BED300EA42F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762680DA2811BED300EA42F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		762680EA2811BFFC00EA42F9 /* Shoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
+		762680EC2811C12600EA42F9 /* ShoeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeRow.swift; sourceTree = "<group>"; };
+		762680F02811C42D00EA42F9 /* shoeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = shoeData.json; sourceTree = "<group>"; };
+		762680F22811C92D00EA42F9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		762680F42811CACD00EA42F9 /* ShoeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeList.swift; sourceTree = "<group>"; };
+		762680F62811CB9600EA42F9 /* ShoeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDetail.swift; sourceTree = "<group>"; };
+		762680F82811D3DC00EA42F9 /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				762680D32811BED000EA42F9 /* BballShoesApp.swift */,
-				762680D52811BED000EA42F9 /* ContentView.swift */,
+				762680E62811BFB000EA42F9 /* Views */,
+				762680E52811BFA900EA42F9 /* Model */,
+				762680E72811BFC600EA42F9 /* Resources */,
 				762680D72811BED300EA42F9 /* Assets.xcassets */,
 				762680D92811BED300EA42F9 /* Preview Content */,
 			);
@@ -65,6 +81,35 @@
 				762680DA2811BED300EA42F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		762680E52811BFA900EA42F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				762680EA2811BFFC00EA42F9 /* Shoe.swift */,
+				762680F22811C92D00EA42F9 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		762680E62811BFB000EA42F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				762680D52811BED000EA42F9 /* ContentView.swift */,
+				762680EC2811C12600EA42F9 /* ShoeRow.swift */,
+				762680F42811CACD00EA42F9 /* ShoeList.swift */,
+				762680F62811CB9600EA42F9 /* ShoeDetail.swift */,
+				762680F82811D3DC00EA42F9 /* RectangleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		762680E72811BFC600EA42F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				762680F02811C42D00EA42F9 /* shoeData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				762680DB2811BED300EA42F9 /* Preview Assets.xcassets in Resources */,
+				762680F12811C42D00EA42F9 /* shoeData.json in Resources */,
 				762680D82811BED300EA42F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +185,12 @@
 			files = (
 				762680D62811BED000EA42F9 /* ContentView.swift in Sources */,
 				762680D42811BED000EA42F9 /* BballShoesApp.swift in Sources */,
+				762680ED2811C12600EA42F9 /* ShoeRow.swift in Sources */,
+				762680EB2811BFFC00EA42F9 /* Shoe.swift in Sources */,
+				762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */,
+				762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */,
+				762680F32811C92D00EA42F9 /* ModelData.swift in Sources */,
+				762680F92811D3DC00EA42F9 /* RectangleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +327,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +357,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
