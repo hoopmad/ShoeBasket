@@ -12,30 +12,40 @@ struct ShoeDetail: View {
 	
 	var body: some View {
 		ScrollView{
-			RectangleImage(image: shoe.image)
+			shoe.playerImage
+				.resizable()
 				.ignoresSafeArea(edges: .top)
-				.offset(y: 50)
-				.padding(.bottom, 50)
+				.frame(height: 400)
+			
+			CircleImage(image: shoe.image)
+				.offset(y: -170)
+				.padding(.bottom, -170)
 			
 			VStack (alignment: .leading){
 				Text(shoe.name)
 					.font(.title)
 				HStack {
-					Text(shoe.player)
+					Text(shoe.brand)
 						.font(.subheadline)
 					Spacer()
-					Text(shoe.brand)
+					Text(shoe.price)
 						.font(.subheadline)
 				}
 				
 				.font(.subheadline)
 				.foregroundColor(.secondary)
 				
+				
+				
 				Divider()
 				
-				Text("\(shoe.name) 의 상세 정보")
+				Text("\(shoe.name)의 상세 정보")
 					.font(.title2)
 				Text(shoe.description)
+				
+				Divider()
+				
+				Text("착용 선수: \(shoe.player)")
 			}
 			.padding()
 		}

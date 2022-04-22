@@ -14,6 +14,7 @@ struct ShoeList: View {
 				NavigationLink {
 					ShoeDetail(shoe: shoe)
 				} label: {
+					
 					ShoeRow(shoe: shoe)
 				}
 			}

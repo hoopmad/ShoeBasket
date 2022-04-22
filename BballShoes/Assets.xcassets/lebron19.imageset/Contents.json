@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "lebron19.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "lebron19.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },

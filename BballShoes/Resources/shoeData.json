@@ -3,121 +3,151 @@
 		"name": "Air Jordan 36",
 		"brand": "조던",
 		"player": "제이슨 테이텀",
+		"price": "219,000원",
 		"id": 1001,
 		"description": "에어 조던 36!",
-		"imageName": "airjordan36"
+		"imageName": "airjordan36",
+		"playerImageName": "jaysontatum"
 	},
 	{
 		"name": "Court Rider",
 		"brand": "푸마",
 		"player": "디안드레 에이튼",
+		"price": "139,000원",
 		"id": 1002,
 		"description": "코트 라이더!",
-		"imageName": "courtrider"
+		"imageName": "courtrider",
+		"playerImageName": "deandreayton"
 	},
 	{
 		"name": "Curry 9",
 		"brand": "언더아머",
 		"player": "스테픈 커리",
+		"price": "175,000원",
 		"id": 1003,
 		"description": "커리 9!",
-		"imageName": "curry9"
+		"imageName": "curry9",
+		"playerImageName": "stephencurry"
 	},
 	{
 		"name": "Dame 8",
 		"brand": "아디다스",
 		"player": "데미안 릴라드",
+		"price": "149,000원",
 		"id": 1004,
 		"description": "데임 8!",
-		"imageName": "dame8"
+		"imageName": "dame8",
+		"playerImageName": "damianlillard"
 	},
 	{
 		"name": "D.O.N. Issue #3",
 		"brand": "아디다스",
 		"player": "도노반 미첼",
+		"price": "149,000원",
 		"id": 1005,
 		"description": "돈 이슈 3!",
-		"imageName": "donissue3"
+		"imageName": "donissue3",
+		"playerImageName": "donovanmitchell"
 	},
 	{
 		"name": "Harden Vol.6",
 		"brand": "아디다스",
 		"player": "제임스 하든",
+		"price": "169,000원",
 		"id": 1006,
 		"description": "하든 6!",
-		"imageName": "hardenvol6"
+		"imageName": "hardenvol6",
+		"playerImageName": "jamesharden"
 	},
 	{
 		"name": "KD14",
 		"brand": "나이키",
 		"player": "케빈 듀란트",
+		"price": "179,000원",
 		"id": 1007,
 		"description": "케이디 14!",
-		"imageName": "kd14"
+		"imageName": "kd14",
+		"playerImageName": "kevindurant"
 	},
 	{
 		"name": "Kyrie Infinity",
 		"brand": "나이키",
 		"player": "카이리 어빙",
+		"price": "159,000원",
 		"id": 1008,
 		"description": "카이리 인피니티!",
-		"imageName": "kyrieinfinity"
+		"imageName": "kyrieinfinity",
+		"playerImageName": "kyrieirving"
 	},
 	{
 		"name": "Lebron 19",
 		"brand": "나이키",
 		"player": "르브론 제임스",
+		"price": "239,000원",
 		"id": 1009,
 		"description": "르브론 19!",
-		"imageName": "lebron19"
+		"imageName": "lebron19",
+		"playerImageName": "lebronjames"
 	},
 	{
 		"name": "MB.01",
 		"brand": "푸마",
 		"player": "라멜로 볼",
+		"price": "159,000원",
 		"id": 1010,
 		"description": "엠비 1!",
-		"imageName": "mb01"
+		"imageName": "mb01",
+		"playerImageName": "lameloball"
 	},
 	{
 		"name": "PG 6",
 		"brand": "나이키",
 		"player": "폴 조지",
+		"price": "129,000원",
 		"id": 1011,
 		"description": "폴 조지 6",
-		"imageName": "pg6"
+		"imageName": "pg6",
+		"playerImageName": "paulgeorge"
 	},
 	{
 		"name": "Trae Young 1",
 		"brand": "아디다스",
 		"player": "트레이 영",
+		"price": "169,000원",
 		"id": 1012,
 		"description": "트레이 영 1!",
-		"imageName": "traeyoung1"
+		"imageName": "traeyoung1",
+		"playerImageName": "traeyoung"
 	},
 	{
 		"name": "Why Not Zer0.5",
 		"brand": "조던",
 		"player": "러셀 웨스트브룩",
+		"price": "159,000원",
 		"id": 1013,
 		"description": "와이낫제로 5!",
-		"imageName": "whynotzero5"
+		"imageName": "whynotzero5",
+		"playerImageName": "russellwestbrook"
 	},
 	{
 		"name": "Zion 1",
 		"brand": "조던",
 		"player": "자이언 윌리엄슨",
+		"price": "139,000원",
 		"id": 1014,
 		"description": "자이언 1!",
-		"imageName": "zion1"
+		"imageName": "zion1",
+		"playerImageName": "zionwilliamson"
 	},
 	{
 		"name": "Zoom Freak 3",
 		"brand": "나이키",
 		"player": "야니스 아데토쿤보",
+		"price": "149,000원",
 		"id": 1015,
 		"description": "줌 프릭 3!",
-		"imageName": "zoomfreak3"
+		"imageName": "zoomfreak3",
+		"playerImageName": "giannis"
 	}
 
 ]

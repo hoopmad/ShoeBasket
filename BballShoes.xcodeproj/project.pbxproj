@@ -17,7 +17,7 @@
 		762680F32811C92D00EA42F9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F22811C92D00EA42F9 /* ModelData.swift */; };
 		762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F42811CACD00EA42F9 /* ShoeList.swift */; };
 		762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F62811CB9600EA42F9 /* ShoeDetail.swift */; };
-		762680F92811D3DC00EA42F9 /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F82811D3DC00EA42F9 /* RectangleImage.swift */; };
+		762680F92811D3DC00EA42F9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F82811D3DC00EA42F9 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		762680F22811C92D00EA42F9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		762680F42811CACD00EA42F9 /* ShoeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeList.swift; sourceTree = "<group>"; };
 		762680F62811CB9600EA42F9 /* ShoeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDetail.swift; sourceTree = "<group>"; };
-		762680F82811D3DC00EA42F9 /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
+		762680F82811D3DC00EA42F9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 				762680EC2811C12600EA42F9 /* ShoeRow.swift */,
 				762680F42811CACD00EA42F9 /* ShoeList.swift */,
 				762680F62811CB9600EA42F9 /* ShoeDetail.swift */,
-				762680F82811D3DC00EA42F9 /* RectangleImage.swift */,
+				762680F82811D3DC00EA42F9 /* CircleImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 				762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */,
 				762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */,
 				762680F32811C92D00EA42F9 /* ModelData.swift in Sources */,
-				762680F92811D3DC00EA42F9 /* RectangleImage.swift in Sources */,
+				762680F92811D3DC00EA42F9 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

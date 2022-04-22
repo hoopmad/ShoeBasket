@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "donissue3.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "donissue3.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },

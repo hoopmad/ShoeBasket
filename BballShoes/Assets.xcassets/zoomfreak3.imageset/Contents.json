@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "zoomfreak3.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "zoomfreak3.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },

@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "kyrieinfinity.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "kyrieinfinity.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
