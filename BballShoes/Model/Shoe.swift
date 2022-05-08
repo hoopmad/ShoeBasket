@@ -17,6 +17,7 @@ struct Shoe: Hashable, Codable, Identifiable {
 	var isFavorite: Bool
 	var isFeatured: Bool
 	var brandName: String
+	var shoeUrl: String
 	
 	var brand: Brand
 	enum Brand: String, CaseIterable, Codable {

@@ -50,7 +50,16 @@ struct ShoeDetail: View {
 				
 				Text("\(shoe.name)의 상세 정보")
 					.font(.title2)
+				Spacer()
 				Text(shoe.description)
+					.font(.body)
+					.fontWeight(.thin)
+					.foregroundColor(.primary)
+					.multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+				
+				Divider()
+				
+				Link("구매 링크", destination: URL(string: shoe.shoeUrl)!)
 				
 				Divider()
 				

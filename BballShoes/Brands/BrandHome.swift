@@ -16,7 +16,7 @@ struct BrandHome: View {
 				modelData.features[0].image
 					.resizable()
 					.scaledToFill()
-					.frame(height: 280)
+					.frame(height: 300)
 					.clipped()
 					.listRowInsets(EdgeInsets())
 				

@@ -8,7 +8,8 @@
 		"id": 1001,
 		"isFeatured": false,
 		"isFavorite": true,
-		"description": "에어 조던 36!",
+		"shoeUrl" : "https://www.nike.com/kr/ko_kr/t/men/fw/basketball/DA9053-002/gnM0I4Y/air-jordan-xxxvi-pf",
+		"description": "가벼운 움직임.\n\n에어 조던 36은 단순히 아이코닉한 프랜차이즈의 신제품이 아니라, 농구에 혁명을 일으킨 추진력과 에너지를 표현하는 아이템입니다. 가장 가벼운 에어 조던 경기용 신발 중 하나로서, 미니멀하면서도 TPU 띠와 합성 오버레이를 더해 내구성을 강화한 레노 위브 갑피가 돋보입니다. 또한 전체적으로 적용된 줌 에어 스트로벨 유닛이 갑피에 직접 스티칭되고, 발 앞꿈치 아래에 줌 에어 유닛이 있어 에너지 반환 감각과 탁월한 반응성을 제공합니다. 어떤 동작도 가볍게 해낼 수 있다는 자신감으로 경기를 시작하세요.",
 		"imageName": "airjordan36",
 		"playerImageName": "jaysontatum"
 	},
@@ -21,7 +22,8 @@
 		"id": 1002,
 		"isFeatured": false,
 		"isFavorite": true,
-		"description": "코트 라이더!",
+		"shoeUrl": "https://kr.puma.com/kr/ko/pd/court-rider/195064.html",
+		"description": "이제 코트에 뛰어들 시간입니다. 그리고 유명한 Future Rider, Style Ride, Street Rider 모델에서 영감을 얻은 이 고기능 농구화와 함께라면 걱정할 필요가 없습니다. PUMA의 고마모성 합성 소재로 향상된 내구성과 접지력을 제공하는 풀 커버리지 고무 아웃솔 덕분에 코트 위의 경기에서 믿고 착용할 수 있는 신발입니다. 발 앞부분 주변의 신발끈 시스템은 실망시키지 않을 만큼 안정감을 선사합니다.",
 		"imageName": "courtrider",
 		"playerImageName": "deandreayton"
 	},
@@ -32,9 +34,10 @@
 		"player": "스테픈 커리",
 		"price": "175,000원",
 		"id": 1003,
-		"isFeatured": true,
+		"isFeatured": false,
 		"isFavorite": false,
-		"description": "커리 9!",
+		"shoeUrl": "https://www.underarmour.co.kr/ko-kr/3025684.html?dwvar_3025684_color=406",
+		"description": "이런 느낌의 신발은 처음이실 거예요. UA FLOW는 고무 소재가 전혀 없어서 더 가볍고 놀라울 정도로 그립감이 뛰어납니다. UA Warp 어퍼는 미니 안전벨트처럼 발을 단단히 잡아줍니다. 덕분에 신속하게 멈추고 움직일 수 있으며 통제력이 강화됩니다.",
 		"imageName": "curry9",
 		"playerImageName": "stephencurry"
 	},
@@ -47,7 +50,8 @@
 		"id": 1004,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "데임 8!",
+		"shoeUrl": "https://www.adidas.co.kr/dame-8/GY0384.html",
+		"description": "링 안에서 태어나는 챔피언의 강인한 정신력으로 코트를 물들이는 데미안 릴라드의 시그니처 슈즈를 만나보세요. 링 밖에서 관심을 갖기 시작한 어린 시절부터 격렬한 복싱 훈련으로 오프 시즌을 보내는 지금까지 데미안이 오랜 시간 동안 쌓아 온 무한한 복싱 사랑을 상징하는 아디다스 농구화입니다. 안정감과 지지력, 에너지 리턴 쿠셔닝의 완벽한 조화로 위기의 상황에도 준비된 플레이를 펼칠 수 있습니다. 뒤꿈치의 \"Knockout Champ\" 배지가 승리를 이끄는 자신감을 더해줍니다.",
 		"imageName": "dame8",
 		"playerImageName": "damianlillard"
 	},
@@ -60,7 +64,8 @@
 		"id": 1005,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "돈 이슈 3!",
+		"shoeUrl": "https://www.adidas.co.kr/d.o.n.-issue-3/GV7266.html",
+		"description": "아디다스 바스켓볼과 도노반 미첼이 함께 선보이는 새로운 농구화를 만나보세요. 어린 시절부터 슈퍼스타가 되기까지 스파이다의 농구 여정을 녹여낸 시그니처 슈즈입니다. 부정적 생각을 극복하고 정상에 오른 슈팅 가드의 강력한 의지가 담긴 대담하고 흔들림 없는 디자인을 선보입니다.",
 		"imageName": "donissue3",
 		"playerImageName": "donovanmitchell"
 	},
@@ -73,7 +78,8 @@
 		"id": 1006,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "하든 6!",
+		"shoeUrl": "https://www.adidas.co.kr/harden-vol-6/GV8703.html",
+		"description": "상대방의 허를 찌르는 공격. 아디다스 농구화와 함께 제임스 하든처럼 재빨리 골대로 돌파하여 풀업 점프슛을 터뜨리고 수비수를 놀라게 해보세요. 반응성이 뛰어난 부스트 미드솔이 경기 시작부터 연장 쿼터의 마지막 순간까지 끊임없이 에너지를 되돌려줍니다. 앞발과 뒤꿈치를 단단하게 감싸는 밴드가 흔들림 없는 핏을 더해줍니다.",
 		"imageName": "hardenvol6",
 		"playerImageName": "jamesharden"
 	},
@@ -86,7 +92,8 @@
 		"id": 1007,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "케이디 14!",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/adult-unisex/fw/basketball/DC9380-001/esdr21/kd14-seasonal-ep",
+		"description": "장시간 플레이에도 산뜻한 착용감.\n\n케빈 듀란트는 적절한 공격 타이밍을 노리며 측면에 숨어 있다가 수비를 뚫고 파고듭니다. KD14는 KD처럼 다재다능하고 지칠 줄 모르는 선수들이 경기 내내 산뜻함을 느낄 수 있도록 디자인되었습니다. 멀티레이어 메쉬와 중족부 스트랩이 신발 안에서 발의 움직임을 줄여 줍니다. 전체적으로 적용된 줌 에어 쿠셔닝과 쿠쉴론 폼은 에너지를 반환해 지속적인 퍼포먼스를 가능하게 합니다.",
 		"imageName": "kd14",
 		"playerImageName": "kevindurant"
 	},
@@ -99,7 +106,8 @@
 		"id": 1008,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "카이리 인피니티!",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/adult-unisex/fw/basketball/DC9134-200/9fF3Bp84f/kyrie-infinity-ep",
+		"description": "컨트롤에 기반한 공격.\n\n더 신속하게 속도를 늦출수록 카이리는 더 빠르게 스피드를 내고 방향을 바꿀 수 있습니다. 움직임을 빠르게 제어할 수 있어 동작 예측이 불가능해 수비수들을 혼란에 빠뜨리죠. 타이트한 핏의 카이리 인피니티는 앞꿈치의 반응성과 옆면 접지력을 강화해 원하는 대로 속도를 높이고 줄일 수 있습니다.",
 		"imageName": "kyrieinfinity",
 		"playerImageName": "kyrieirving"
 	},
@@ -112,7 +120,8 @@
 		"id": 1009,
 		"isFeatured": true,
 		"isFavorite": false,
-		"description": "르브론 19!",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/adult-unisex/fw/basketball/CZ0203-101/brhk59/lebron-xix",
+		"description": "파워 업.\n\n르브론은 위험이 크고 압박감을 느끼는 상황에서 뛰어난 퍼포먼스를 보여줍니다. 르브론 19는 발을 꼭 잡아주는 핏과 업그레이드된 쿠셔닝 시스템으로 에너지를 선사합니다. 발이 신발 안에서 움직이지 않도록 신발 끈이 통과하는 성형된 오버레이에 꼭 맞는 내부 슬리브가 결합되어 있습니다. 설포와 카라 주변에 적용된 내장형 포드가 무게를 줄이고 발목을 고정해주며, 경기 내내 선수들이 최대의 역량을 발휘할 수 있도록 안정적인 착화감과 자신감을 선사합니다.",
 		"imageName": "lebron19",
 		"playerImageName": "lebronjames"
 	},
@@ -125,7 +134,8 @@
 		"id": 1010,
 		"isFeatured": true,
 		"isFavorite": false,
-		"description": "엠비 1!",
+		"shoeUrl": "https://kr.puma.com/kr/ko/pd/mb.01%2Fmb.01/377237.html",
+		"description": "중력을 무시하듯 날아올라 림을 부숴버리는 덩크, SF 영화의 주인공을 떠올리게 하는 파워가 담긴 무브먼트, 던지는 순간 실패라는 상상조차 할 수 없는 정확한 슛까지! 지금까지 라멜로 볼 같은 선수는 그 어디에도 없었습니다. 어쩌면 그는 이 세상 사람이 아닐지도 모릅니다! 라멜로 볼의 첫번째 시그니처 슈즈 MB.01은 눈으로 보고도 믿을 수 없는 그의 퍼포먼스와 닮아 있습니다. 특수 니트 소재와 Nitro 폼, 푸마 홉스의 기술을 집약해 놓은 MB.01은 이제가지의 농구화와 전혀 다른 모습을 보여줍니다. 어쩌면 라멜로와 MB.01은 모두 외계에서 온 게 아닐까요?!",
 		"imageName": "mb01",
 		"playerImageName": "lameloball"
 	},
@@ -138,7 +148,8 @@
 		"id": 1011,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "폴 조지 6",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/adult-unisex/fw/basketball/DH8447-002/XlJ385lw4Jas/pg-6-ep",
+		"description": "구름 위에서 농구를 즐기다.\n\n폴 조지는 코트에서 모든 능력을 편안하게 발휘합니다. 골대를 향해 질주하고 수비수를 따돌리며 공을 잡고 슛을 날리는 폼은 늘 부드럽니잠 파괴적인 실력을 발휘합니다. 푹신한 소재로 제작된 그의 시그니처 PG 6는 구름 위를 걷는 듯 가볍고 떠 있는 느낌을 주도록 디자인 되었습니다.",
 		"imageName": "pg6",
 		"playerImageName": "paulgeorge"
 	},
@@ -151,7 +162,8 @@
 		"id": 1012,
 		"isFeatured": false,
 		"isFavorite": true,
-		"description": "트레이 영 1!",
+		"shoeUrl": "https://www.adidas.co.kr/trae-young-1/GY0289.html",
+		"description": "평범함을 거부하는 대담하고 극적인 퍼포먼스. 농구의 새로운 미래를 여는 트레이 영과 아디다스 바스켓볼의 최신 시그니처 슈즈를 만나보세요. 눈으로 쫓을 수 없는 빠르고 민첩한 플레이를 위해 탄생한 쿠셔닝 농구화입니다. 초경량 라이트스트라이크 미드솔과 에너지 리턴 부스트, 내부 락다운 구조의 조화로 폭발적인 스피드 속에서 더욱 편안하게 움직일 수 있습니다.",
 		"imageName": "traeyoung1",
 		"playerImageName": "traeyoung"
 	},
@@ -164,7 +176,8 @@
 		"id": 1013,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "와이낫제로 5!",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/men/fw/basketball/DC3638-500/wohs13/jordan-why-not-5-pf",
+		"description": "WHY NOT?\n\n러셀 웨스트브룩은 빠릅니다. 조던 Why Not Zer0.5는 업데이트된 쿠셔닝, 데이터 기반 접지력, 발 전체에 꼭 맞는 핏 시스템으로 그의 컨트롤을 유지해 줍니다. 트레일 런닝화의 견고한 유틸리티 룩 및 Why Not?의 핵심 색상과 소재의 의도적인 충돌을 결합했습니다.",
 		"imageName": "whynotzero5",
 		"playerImageName": "russellwestbrook"
 	},
@@ -177,7 +190,8 @@
 		"id": 1014,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "자이언 1!",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/men/fw/basketball/DA3129-004/rgdc24/jordan-zion-1-pf",
+		"description": "자이언을 만나 보세요.\n\n소탈한 성격에 이 세상 수준이 아닌 능력을 가진 자이언은 그 누구와도 다릅니다. 젠틀하고 가정적인 그는 코트 위에 서면 멈출 수 없는 기량과 스피드로 적수가 없는 강력한 선수로 변신합니다. 조던 자이언 1은 겸손함과 초인적인 능력을 가진 그의 양면성에서 영감을 얻은 디자인으로 시그니처 라인의 첫선을 보입니다. 에어 스트로벨 쿠셔닝이 전체적으로 적용되었고 발 앞부분에는 줌 에어 유닛이 들어가 있어 언더풋의 푹신한 편안함과 신속한 반응성이 감각적으로 조화를 이룹니다. 가볍고 안정적이며 강인한 데다 탁월한 접지력까지 갖춰 자이언이 코드를 휘어잡고 힘을 조절하도록 도와줍니다.",
 		"imageName": "zion1",
 		"playerImageName": "zionwilliamson"
 	},
@@ -190,7 +204,8 @@
 		"id": 1015,
 		"isFeatured": false,
 		"isFavorite": false,
-		"description": "줌 프릭 3!",
+		"shoeUrl": "https://www.nike.com/kr/ko_kr/t/adult-unisex/fw/basketball/DA0694-003/ehli76/zoom-freak-3",
+		"description": "세 번째 버전.\n\n야니스는 엄청난 보폭, 상대를 교란하는 유로 스텝, 어떤 포지션에서든 플레이할 수 있는 역량으로 림으로 돌진할 때 누구도 막을 수 없는 괴인의 운동 능력을 게임에서 보여줍니다. 줌 프릭 3를 통해 야니스는 자신의 고유한 기술을 최대한 활용하고 게임에 미치는 영향을 증폭합니다. 에너지 반환 쿠셔닝, 좌우 이동 시 고정력, 다방향 접지력은 야니스와 같은 다차원적인 플레이어가 공간을 만들고 통제력을 유지할 수 있도록 도와줍니다.",
 		"imageName": "zoomfreak3",
 		"playerImageName": "giannis"
 	}
