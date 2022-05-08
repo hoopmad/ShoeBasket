@@ -18,6 +18,11 @@ struct ShoeRow: View {
 			Text(shoe.name)
 			
 			Spacer()
+			
+			if shoe.isFavorite {
+				Image(systemName: "star.fill")
+					.foregroundColor(.yellow)
+			}
 		}
     }
 }

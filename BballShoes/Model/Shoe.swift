@@ -15,6 +15,7 @@ struct Shoe: Hashable, Codable, Identifiable {
 	var player: String
 	var price: String
 	var description: String
+	var isFavorite: Bool
 	
 	private var imageName: String
 	var image: Image {
