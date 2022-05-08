@@ -10,6 +10,17 @@ import Combine
 
 final class ModelData: ObservableObject {
 	@Published var shoes: [Shoe] = load("shoeData.json")
+	
+	var features: [Shoe] {
+		shoes.filter { $0.isFeatured }
+	}
+	
+	var brands: [String: [Shoe]] {
+		Dictionary(
+			grouping: shoes,
+			by: { $0.brand.rawValue }
+		)
+	}
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

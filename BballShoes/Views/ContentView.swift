@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var selection: Tab = .featured
+	
+	enum Tab {
+		case featured
+		case list
+	}
+	
 	var body: some View {
-		ShoeList()
+		TabView(selection: $selection) {
+			BrandHome()
+				.tabItem {
+					Label("홈", systemImage: "house.fill")
+				}
+				.tag(Tab.featured)
+			
+			ShoeList()
+				.tabItem {
+					Label("농구화", systemImage: "list.bullet")
+				}
+				.tag(Tab.list)
+		}
 	}
 }
 

@@ -34,7 +34,7 @@ struct ShoeDetail: View {
 				}
 				
 				HStack {
-					Text(shoe.brand)
+					Text(shoe.brandName)
 						.font(.subheadline)
 					Spacer()
 					Text(shoe.price)

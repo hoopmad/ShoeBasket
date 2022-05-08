@@ -1,7 +1,8 @@
 [
 	{
 		"name": "Air Jordan 36",
-		"brand": "조던",
+		"brand": "Jordan",
+		"brandName": "조던",
 		"player": "제이슨 테이텀",
 		"price": "219,000원",
 		"id": 1001,
@@ -13,7 +14,8 @@
 	},
 	{
 		"name": "Court Rider",
-		"brand": "푸마",
+		"brand": "Puma",
+		"brandName": "푸마",
 		"player": "디안드레 에이튼",
 		"price": "139,000원",
 		"id": 1002,
@@ -25,7 +27,8 @@
 	},
 	{
 		"name": "Curry 9",
-		"brand": "언더아머",
+		"brand": "Underarmour",
+		"brandName": "언더아머",
 		"player": "스테픈 커리",
 		"price": "175,000원",
 		"id": 1003,
@@ -37,7 +40,8 @@
 	},
 	{
 		"name": "Dame 8",
-		"brand": "아디다스",
+		"brand": "Adidas",
+		"brandName": "아디다스",
 		"player": "데미안 릴라드",
 		"price": "149,000원",
 		"id": 1004,
@@ -49,7 +53,8 @@
 	},
 	{
 		"name": "D.O.N. Issue #3",
-		"brand": "아디다스",
+		"brand": "Adidas",
+		"brandName": "아디다스",
 		"player": "도노반 미첼",
 		"price": "149,000원",
 		"id": 1005,
@@ -61,7 +66,8 @@
 	},
 	{
 		"name": "Harden Vol.6",
-		"brand": "아디다스",
+		"brand": "Adidas",
+		"brandName": "아디다스",
 		"player": "제임스 하든",
 		"price": "169,000원",
 		"id": 1006,
@@ -73,7 +79,8 @@
 	},
 	{
 		"name": "KD14",
-		"brand": "나이키",
+		"brand": "Nike",
+		"brandName": "나이키",
 		"player": "케빈 듀란트",
 		"price": "179,000원",
 		"id": 1007,
@@ -85,7 +92,8 @@
 	},
 	{
 		"name": "Kyrie Infinity",
-		"brand": "나이키",
+		"brand": "Nike",
+		"brandName": "나이키",
 		"player": "카이리 어빙",
 		"price": "159,000원",
 		"id": 1008,
@@ -97,7 +105,8 @@
 	},
 	{
 		"name": "Lebron 19",
-		"brand": "나이키",
+		"brand": "Nike",
+		"brandName": "나이키",
 		"player": "르브론 제임스",
 		"price": "239,000원",
 		"id": 1009,
@@ -109,7 +118,8 @@
 	},
 	{
 		"name": "MB.01",
-		"brand": "푸마",
+		"brand": "Puma",
+		"brandName": "푸마",
 		"player": "라멜로 볼",
 		"price": "159,000원",
 		"id": 1010,
@@ -121,7 +131,8 @@
 	},
 	{
 		"name": "PG 6",
-		"brand": "나이키",
+		"brand": "Nike",
+		"brandName": "나이키",
 		"player": "폴 조지",
 		"price": "129,000원",
 		"id": 1011,
@@ -133,7 +144,8 @@
 	},
 	{
 		"name": "Trae Young 1",
-		"brand": "아디다스",
+		"brand": "Adidas",
+		"brandName": "아디다스",
 		"player": "트레이 영",
 		"price": "169,000원",
 		"id": 1012,
@@ -145,7 +157,8 @@
 	},
 	{
 		"name": "Why Not Zer0.5",
-		"brand": "조던",
+		"brand": "Jordan",
+		"brandName": "조던",
 		"player": "러셀 웨스트브룩",
 		"price": "159,000원",
 		"id": 1013,
@@ -157,7 +170,8 @@
 	},
 	{
 		"name": "Zion 1",
-		"brand": "조던",
+		"brand": "Jordan",
+		"brandName": "조던",
 		"player": "자이언 윌리엄슨",
 		"price": "139,000원",
 		"id": 1014,
@@ -169,7 +183,8 @@
 	},
 	{
 		"name": "Zoom Freak 3",
-		"brand": "나이키",
+		"brand": "Nike",
+		"brandName": "나이키",
 		"player": "야니스 아데토쿤보",
 		"price": "149,000원",
 		"id": 1015,
