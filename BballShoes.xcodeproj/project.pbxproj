@@ -18,6 +18,7 @@
 		762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F42811CACD00EA42F9 /* ShoeList.swift */; };
 		762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F62811CB9600EA42F9 /* ShoeDetail.swift */; };
 		762680F92811D3DC00EA42F9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762680F82811D3DC00EA42F9 /* CircleImage.swift */; };
+		7633BD402827DB1500C07D30 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7633BD3F2827DB1500C07D30 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		762680F42811CACD00EA42F9 /* ShoeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeList.swift; sourceTree = "<group>"; };
 		762680F62811CB9600EA42F9 /* ShoeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDetail.swift; sourceTree = "<group>"; };
 		762680F82811D3DC00EA42F9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7633BD3F2827DB1500C07D30 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				762680F42811CACD00EA42F9 /* ShoeList.swift */,
 				762680F62811CB9600EA42F9 /* ShoeDetail.swift */,
 				762680F82811D3DC00EA42F9 /* CircleImage.swift */,
+				7633BD3F2827DB1500C07D30 /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				762680D62811BED000EA42F9 /* ContentView.swift in Sources */,
 				762680D42811BED000EA42F9 /* BballShoesApp.swift in Sources */,
 				762680ED2811C12600EA42F9 /* ShoeRow.swift in Sources */,
+				7633BD402827DB1500C07D30 /* FavoriteButton.swift in Sources */,
 				762680EB2811BFFC00EA42F9 /* Shoe.swift in Sources */,
 				762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */,
 				762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */,

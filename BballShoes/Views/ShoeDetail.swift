@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct ShoeDetail: View {
+	@EnvironmentObject var modelData: ModelData
 	var shoe: Shoe
+	
+	var shoeIndex: Int {
+		modelData.shoes.firstIndex(where: { $0.id == shoe.id })!
+	}
 	
 	var body: some View {
 		ScrollView{
@@ -22,8 +27,12 @@ struct ShoeDetail: View {
 				.padding(.bottom, -170)
 			
 			VStack (alignment: .leading){
-				Text(shoe.name)
-					.font(.title)
+				HStack{
+					Text(shoe.name)
+						.font(.title)
+					FavoriteButton(isSet: $modelData.shoes[shoeIndex].isFavorite)
+				}
+				
 				HStack {
 					Text(shoe.brand)
 						.font(.subheadline)
@@ -57,7 +66,10 @@ struct ShoeDetail: View {
 }
 
 struct ShoeDetail_Previews: PreviewProvider {
+	static let modelData = ModelData()
+	
     static var previews: some View {
-        ShoeDetail(shoe: shoes[0])
+		ShoeDetail(shoe: modelData.shoes[0])
+			.environmentObject(modelData)
     }
 }

@@ -138,7 +138,7 @@
 		"price": "169,000원",
 		"id": 1012,
 		"isFeatured": false,
-		"isFavorite": false,
+		"isFavorite": true,
 		"description": "트레이 영 1!",
 		"imageName": "traeyoung1",
 		"playerImageName": "traeyoung"

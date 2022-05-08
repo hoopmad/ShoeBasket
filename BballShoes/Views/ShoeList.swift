@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ShoeList: View {
+	@EnvironmentObject var modelData: ModelData
 	@State private var showFavoritesOnly = false
 	
 	var filteredShoes: [Shoe] {
-		shoes.filter { shoe in
+		modelData.shoes.filter { shoe in
 			(!showFavoritesOnly || shoe.isFavorite)
 		}
 	}

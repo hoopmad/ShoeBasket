@@ -16,5 +16,6 @@ struct ContentView: View {
 struct ShoeListView_Previews: PreviewProvider {
 	static var previews: some View {
 		ContentView()
+			.environmentObject(ModelData())
 	}
 }

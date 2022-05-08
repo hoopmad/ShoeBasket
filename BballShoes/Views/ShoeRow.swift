@@ -28,6 +28,8 @@ struct ShoeRow: View {
 }
 
 struct ShoeRow_Previews: PreviewProvider {
+	static var shoes = ModelData().shoes
+	
     static var previews: some View {
 		Group {
 			ShoeRow(shoe: shoes[0])
