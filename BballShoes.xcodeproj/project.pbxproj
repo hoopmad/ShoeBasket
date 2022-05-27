@@ -22,6 +22,11 @@
 		7633BD432827DE6200C07D30 /* BrandHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7633BD422827DE6200C07D30 /* BrandHome.swift */; };
 		7633BD452827E65F00C07D30 /* BrandRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7633BD442827E65F00C07D30 /* BrandRow.swift */; };
 		7633BD472827E88400C07D30 /* BrandItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7633BD462827E88400C07D30 /* BrandItem.swift */; };
+		76ECAF5B28410A6500F99E3A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAF5A28410A6500F99E3A /* PageViewController.swift */; };
+		76ECAF5E28410CF600F99E3A /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAF5D28410CF600F99E3A /* FeatureCard.swift */; };
+		76ECAF60284115BA00F99E3A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAF5F284115BA00F99E3A /* PageView.swift */; };
+		76ECAF6228411E1800F99E3A /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAF6128411E1800F99E3A /* PageControl.swift */; };
+		76ECAF642841384B00F99E3A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECAF632841384B00F99E3A /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,12 @@
 		7633BD422827DE6200C07D30 /* BrandHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandHome.swift; sourceTree = "<group>"; };
 		7633BD442827E65F00C07D30 /* BrandRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandRow.swift; sourceTree = "<group>"; };
 		7633BD462827E88400C07D30 /* BrandItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItem.swift; sourceTree = "<group>"; };
+		76ECAF5A28410A6500F99E3A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		76ECAF5D28410CF600F99E3A /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		76ECAF5F284115BA00F99E3A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		76ECAF6128411E1800F99E3A /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		76ECAF632841384B00F99E3A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		76ECAF6528413A8500F99E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +84,7 @@
 		762680D22811BED000EA42F9 /* BballShoes */ = {
 			isa = PBXGroup;
 			children = (
+				76ECAF6528413A8500F99E3A /* Info.plist */,
 				762680D32811BED000EA42F9 /* BballShoesApp.swift */,
 				762680E62811BFB000EA42F9 /* Views */,
 				7633BD412827DE4400C07D30 /* Brands */,
@@ -110,6 +122,9 @@
 				762680F62811CB9600EA42F9 /* ShoeDetail.swift */,
 				762680F82811D3DC00EA42F9 /* CircleImage.swift */,
 				7633BD3F2827DB1500C07D30 /* FavoriteButton.swift */,
+				76ECAF5D28410CF600F99E3A /* FeatureCard.swift */,
+				76ECAF632841384B00F99E3A /* WebView.swift */,
+				76ECAF5C28410A6E00F99E3A /* PageView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +145,16 @@
 				7633BD462827E88400C07D30 /* BrandItem.swift */,
 			);
 			path = Brands;
+			sourceTree = "<group>";
+		};
+		76ECAF5C28410A6E00F99E3A /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				76ECAF5A28410A6500F99E3A /* PageViewController.swift */,
+				76ECAF5F284115BA00F99E3A /* PageView.swift */,
+				76ECAF6128411E1800F99E3A /* PageControl.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +230,7 @@
 			files = (
 				7633BD472827E88400C07D30 /* BrandItem.swift in Sources */,
 				762680D62811BED000EA42F9 /* ContentView.swift in Sources */,
+				76ECAF5E28410CF600F99E3A /* FeatureCard.swift in Sources */,
 				762680D42811BED000EA42F9 /* BballShoesApp.swift in Sources */,
 				7633BD432827DE6200C07D30 /* BrandHome.swift in Sources */,
 				762680ED2811C12600EA42F9 /* ShoeRow.swift in Sources */,
@@ -212,7 +238,11 @@
 				762680EB2811BFFC00EA42F9 /* Shoe.swift in Sources */,
 				762680F72811CB9600EA42F9 /* ShoeDetail.swift in Sources */,
 				7633BD452827E65F00C07D30 /* BrandRow.swift in Sources */,
+				76ECAF6228411E1800F99E3A /* PageControl.swift in Sources */,
+				76ECAF642841384B00F99E3A /* WebView.swift in Sources */,
+				76ECAF60284115BA00F99E3A /* PageView.swift in Sources */,
 				762680F52811CACD00EA42F9 /* ShoeList.swift in Sources */,
+				76ECAF5B28410A6500F99E3A /* PageViewController.swift in Sources */,
 				762680F32811C92D00EA42F9 /* ModelData.swift in Sources */,
 				762680F92811D3DC00EA42F9 /* CircleImage.swift in Sources */,
 			);
@@ -346,6 +376,7 @@
 				DEVELOPMENT_TEAM = VKZFS6WW2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BballShoes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,6 +407,7 @@
 				DEVELOPMENT_TEAM = VKZFS6WW2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BballShoes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

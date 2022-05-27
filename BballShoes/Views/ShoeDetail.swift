@@ -27,24 +27,24 @@ struct ShoeDetail: View {
 				.padding(.bottom, -170)
 			
 			VStack (alignment: .leading){
-				HStack{
-					Text(shoe.name)
-						.font(.title)
-					FavoriteButton(isSet: $modelData.shoes[shoeIndex].isFavorite)
+				Group {
+					HStack{
+						Text(shoe.name)
+							.font(.title)
+						FavoriteButton(isSet: $modelData.shoes[shoeIndex].isFavorite)
+					}
+					
+					HStack {
+						Text(shoe.brandName)
+							.font(.subheadline)
+						Spacer()
+						Text(shoe.price)
+							.font(.subheadline)
+					}
+					
+					.font(.subheadline)
+					.foregroundColor(.secondary)
 				}
-				
-				HStack {
-					Text(shoe.brandName)
-						.font(.subheadline)
-					Spacer()
-					Text(shoe.price)
-						.font(.subheadline)
-				}
-				
-				.font(.subheadline)
-				.foregroundColor(.secondary)
-				
-				
 				
 				Divider()
 				

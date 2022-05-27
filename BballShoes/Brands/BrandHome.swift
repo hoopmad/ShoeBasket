@@ -13,11 +13,8 @@ struct BrandHome: View {
     var body: some View {
 		NavigationView {
 			List {
-				modelData.features[0].image
-					.resizable()
-					.scaledToFill()
-					.frame(height: 300)
-					.clipped()
+				PageView(pages: modelData.features.map { FeatureCard(shoe: $0) })
+					.aspectRatio(3 / 2, contentMode: .fit)
 					.listRowInsets(EdgeInsets())
 				
 				ForEach(modelData.brands.keys.sorted(), id: \.self) { key in

@@ -33,6 +33,10 @@ struct Shoe: Hashable, Codable, Identifiable {
 		Image(imageName)
 	}
 	
+	var featureImage: Image? {
+		isFeatured ? Image(imageName + "_feature"): nil
+	}
+	
 	private var playerImageName: String
 	var playerImage: Image {
 		Image(playerImageName)
