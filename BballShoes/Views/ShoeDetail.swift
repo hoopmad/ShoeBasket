@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WKView
 
 struct ShoeDetail: View {
 	@EnvironmentObject var modelData: ModelData
@@ -59,8 +60,8 @@ struct ShoeDetail: View {
 				
 				Divider()
 				
-				Link("구매 링크", destination: URL(string: shoe.shoeUrl)!)
-				
+				NavigationLink("구매 링크", destination: WebView(url: shoe.shoeUrl))
+
 				Divider()
 				
 				Text("착용 선수: \(shoe.player)")

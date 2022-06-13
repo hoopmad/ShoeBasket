@@ -13,6 +13,7 @@ struct ContentView: View {
 	enum Tab {
 		case featured
 		case list
+		case info
 	}
 	
 	var body: some View {
@@ -22,6 +23,12 @@ struct ContentView: View {
 					Label("홈", systemImage: "house.fill")
 				}
 				.tag(Tab.featured)
+			
+			Information()
+				.tabItem {
+					Label("정보", systemImage: "doc.text.magnifyingglass")
+				}
+				.tag(Tab.info)
 			
 			ShoeList()
 				.tabItem {
